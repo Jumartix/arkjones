@@ -4,8 +4,8 @@
         "OpenButton": 0,
         "HideIcon": false,
         "HideIconAfter": 60,
-        "IconURL": "https://imgur.com/2Al7wVO",
-        "DisableIconText": false,
+        "IconURL": "https://i.imgur.com/2Al7wVO.png",
+        "DisableIconText": true,
         "IconPosition": 0,
         "IconTextColor": 0,
         "OpenOnStart": true,
@@ -16,49 +16,51 @@
       {
         "tab1": {
           "layout": 1,
-          "buttontext": "BIENVENIDO",
+          "buttontext": "<TextStyle.Violet>BIENVENIDO</>",
           "title1": "¡Gracias por unirte al servidor de Jones!",
-          "text1": "Normas: Maximo una base en el servidor en caso de crear otra pueden desmontar la anterior y hacerla en otro lugar. \n Se permite tener a la vez un barco o yate (MOD) para poder desplazarse. \n Evitar construccion cerca de obeliscos y cuevas o impedir su acceso. \n Evitar una crianza masiva a la vez para no saturar el rendimiento del servidor. \n En otros apartados incluimos como usar MODS y otras mecanicas del servidor",
-          "imageurl": "https://imgur.com/UnD8OiD"
+          "text1": "<RichColor Color=\"1,0.65,0,1\">Normas: Maximo una base en el servidor en caso de crear otra pueden desmontar la anterior y hacerla en otro lugar. \n\n Se permite tener a la vez un barco o yate (MOD) para poder desplazarse. \n\n Evitar construccion cerca de obeliscos y cuevas o impedir su acceso. \n\n Evitar una crianza masiva a la vez para no saturar el rendimiento del servidor. \n\n En otros apartados incluimos como usar MODS y otras mecanicas del servidor </>",
+          "imageurl": "https://i.imgur.com/UnD8OiD.png"
         }
       },
 	  {
         "tab2": {
           "layout": 2,
-          "buttontext": "CASINO Y MERCADO",
+          "buttontext": "<TextStyle.Blue>CASINO Y MERCADO</>",
           "title1": "AJUSTES DE CASINO Y MERCADO:",
-          "text1": "MOD CASINO Y MERCADO: Existe una zona en el mapa que se puede acceder por medio de teleports tanto en los obeliscos como en diferentes regiones y tendras tu propio casino donde jugaras a cualquier cosa por objetos avanzados, con monedas de bronce, plata y oro o tienes unas tiendas o casetas al lado donde tendras para vender tus recursos y obtener ark coin para comprar productos en las tiendas que algunos no existe engrama para craftear incluso.  \n",
-          "imageurl": "https://imgur.com/UnD8OiD"
+          "text1": "<RichColor Color=\"1,0,0,1\">MOD CASINO Y MERCADO: Existe una zona en el mapa que se puede acceder por medio de teleports tanto en los obeliscos como en diferentes regiones y tendras tu propio casino donde jugaras a cualquier cosa por objetos avanzados, con monedas de bronce, plata y oro o tienes unas tiendas o casetas al lado donde tendras para vender tus recursos y obtener ark coin para comprar productos en las tiendas que algunos no existe engrama para craftear incluso. </> \n",
+          "title2": "COMPRA Y VENTA DE MERCADO ALIANZA:",
+          "text2": "<RichColor Color=\"0,1,0,1\">MOD CASINO Y MERCADO: Mediante alianza con el admin y ark coin podras montar tu tienda en la zona de mercado para vender tus items, sera necesario poner un raton en consolas. </> \n",
+          "imageurl": "https://i.imgur.com/UnD8OiD.png"
         }
 		},
       {
         "tab3": {
           "layout": 3,
-          "buttontext": "MOD",
+          "buttontext": "<TextStyle.Yellow>MOD</>",
           "title1": "AJUSTES DE MODS:",
-          "text1": "MOD TIENDA VIRTUAL: Obtienes 25 puntos cada 15 min activo o los añade el admin, se utilizan para comprar dinos o materiales exclusivos, en play se accede manteniendo cuadrado y eliges la tienda y R2 en Xbox se accede manteniendo X y elige la opcion.  \n",
+          "text1": "<RichColor Color=\"0,0,0.65,1\">MOD TIENDA VIRTUAL: Obtienes 25 puntos cada 15 min activo o los añade el admin, se utilizan para comprar dinos o materiales exclusivos, en play se accede manteniendo cuadrado y eliges la tienda y R2 en Xbox se accede manteniendo X y elige la opcion. </> \n",
           "title2": "MOD DE YATE:",
-          "text2": "Existe la opcion de crearte tu propio yate de ensueño en ark, es sencillo de hacer, existe un engrama llamado HoningMachine que te hara poner una estacion de creacion del yate para elaborarlo, es sencillo. \n",
+          "text2": "<RichColor Color=\"0.5,0,0.5,1\">Existe la opcion de crearte tu propio yate de ensueño en ark, es sencillo de hacer, existe un engrama llamado HoningMachine que te hara poner una estacion de creacion del yate para elaborarlo, es sencillo. </> \n",
 		  "title3": "MOD DE DINOS AL HOMBRO:",
-          "text3": "Existe la opcion de usar un engrama llamado dino-pickup y una vez creado se mete en el inventario del dino y en la rueda de opciones del dino dejara hacer pick-up y lo tendras al hombro, muy util en cuevas. \n",
+          "text3": "<RichColor Color=\"0,1,0,1\">Existe la opcion de usar un engrama llamado dino-pickup y una vez creado se mete en el inventario del dino y en la rueda de opciones del dino dejara hacer pick-up y lo tendras al hombro, muy util en cuevas. </> \n",
 		  "title4": "MOD DE RESET NIVELES DINO:",
-          "text4": "Habra un engrama de crear un objeto llamado dino mindwipe que si se le aplica al dino reinicias los nv y te deja reasignarlos. \n",
-          "imageurl": "https://imgur.com/UnD8OiD"
+          "text4": "<RichColor Color=\"0.75,0,0.25,1\">Habra un engrama de crear un objeto llamado dino mindwipe que si se le aplica al dino reinicias los nv y te deja reasignarlos. </> \n",
+          "imageurl": "https://i.imgur.com/UnD8OiD.png"
         }
 		},
 		{
         "tab4": {
           "layout": 4,
-          "buttontext": "MODS2",
+          "buttontext": "<TextStyle.LightBlue>MODS2</>",
           "title1": "AJUSTES DE MODS2:",
-          "text1": "MOD ALMACENAMIENTO VISUAL: En la herreria se dispone de nuevas estructuras para almacenar materiales por categoria de forma que estando ahi pueden usarse desde herreria, fabricador o cualquier crafteo en mesas.  \n",
+          "text1": "<RichColor Color=\"1,0.65,0,1\">MOD ALMACENAMIENTO VISUAL: En la herreria se dispone de nuevas estructuras para almacenar materiales por categoria de forma que estando ahi pueden usarse desde herreria, fabricador o cualquier crafteo en mesas. </> \n",
           "title2": "MOD OBJETOS REUTILIZABLES:",
-          "text2": "Puedes crear objetos que se utilizan de forma infinita como graplins, etc \n",
+          "text2": "<RichColor Color=\"0,1,0,1\">Puedes crear objetos que se utilizan de forma infinita como graplins, etc </> \n",
 		  "title3": "MOD HUMANOS EN ASA:",
-          "text3": "Podras ver humanos en el server salvajes que seran pacificos o hostiles y podras tamearlos y utilizar sus recursos a tu favor ademas de proteger tu base o llevarlos contigo. \n",
+          "text3": "<RichColor Color=\"1,0,1,1\">Podras ver humanos en el server salvajes que seran pacificos o hostiles y podras tamearlos y utilizar sus recursos a tu favor ademas de proteger tu base o llevarlos contigo. </> \n",
 		  "title4": "MOD DE DINOS HIBRIDOS:",
-          "text4": "Se necesita elemento y tener posiblemente la impresora 3D para ello y te dejara craftear una maquina que pones dos dinos de dos especies y obtener un huevo de dicha mezcla. \n",
-          "imageurl": "https://imgur.com/UnD8OiD"
+          "text4": "<RichColor Color=\"1,0,0,1\">Se necesita elemento y tener posiblemente la impresora 3D para ello y te dejara craftear una maquina que pones dos dinos de dos especies y obtener un huevo de dicha mezcla. </> \n",
+          "imageurl": "https://i.imgur.com/UnD8OiD.png"
         }
       }
     ],
