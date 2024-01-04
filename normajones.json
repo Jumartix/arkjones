@@ -62,6 +62,17 @@
           "text4": "<RichColor Color=\"1,0,0,1\">Se necesita elemento y tener posiblemente la impresora 3D para ello y te dejara craftear una maquina que pones dos dinos de dos especies y obtener un huevo de dicha mezcla. </> \n",
           "imageurl": "https://i.imgur.com/UnD8OiD.png"
         }
+      },
+	{
+        "tab5": {
+          "layout": 5,
+          "buttontext": "<TextStyle.Orange>MODS3</>",
+          "title1": "AJUSTES DE MODS3:",
+          "text1": "<RichColor Color=\"1,0.65,0,1\">MOD R-REAPER EMBARAZO: Ahora podras tener tu propio R-Reaper si consigues un diente de Tyranosaurio Alfa y crafteas Reaper Gland que consumes y te embaraza. </> \n",
+          "title2": "MOD POLIMERO ORGANICO A POLIMERO Y MOD DINOS CAGADAS:",
+          "text2": "<RichColor Color=\"0,1,0,1\">Ya puedes convertir el polimero organico a normal con una maquina, otro mod es que si haces un cake especial o mud cake te conviertes el monstruo mierda 5 min. </> \n",
+	  "imageurl": "https://i.imgur.com/UnD8OiD.png"
+        }
       }
     ],
     "links": [
