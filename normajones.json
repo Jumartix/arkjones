@@ -38,12 +38,12 @@
           "layout": 3,
           "buttontext": "<TextStyle.Yellow>MOD</>",
           "title1": "AJUSTES DE MODS:",
-          "text1": "<RichColor Color=\"0,0,0.65,1\"> MOD TIENDA VIRTUAL: Obtienes 25 puntos cada 15 min activo o los añade el admin, se utilizan para comprar dinos o materiales exclusivos, en play se accede manteniendo cuadrado y eliges la tienda y R2 en Xbox se accede manteniendo X y elige la opcion. </> \n\n <RichColor Color=\"0,1,0,1\"> MOD POLIMERO Y MUD CAKE:Ya puedes convertir el polimero organico a normal con una maquina, otro mod es que si haces un cake especial o mud cake te conviertes el monstruo mierda 5 min. </>",
+          "text1": "<RichColor Color=\"0,0,1,1\"> MOD TIENDA VIRTUAL: Obtienes 25 puntos cada 15 min activo o los añade el admin, se utilizan para comprar dinos o materiales exclusivos, en play se accede manteniendo cuadrado y eliges la tienda y R2 en Xbox se accede manteniendo X y elige la opcion. </> \n\n <RichColor Color=\"0,1,0,1\"> MOD POLIMERO Y MUD CAKE:Ya puedes convertir el polimero organico a normal con una maquina, otro mod es que si haces un cake especial o mud cake te conviertes el monstruo mierda 5 min. </>",
           "title2": "MOD DE YATE:",
           "text2": "<RichColor Color=\"0.5,0,0.5,1\"> Existe la opcion de crearte tu propio yate de ensueño en ark, es sencillo de hacer, existe un engrama llamado HoningMachine que te hara poner una estacion de creacion del yate para elaborarlo, es sencillo. </> \n",
 	  "title3": "MOD DE DINOS AL HOMBRO:",
           "text3": "<RichColor Color=\"0,1,0,1\"> Existe la opcion de usar un engrama llamado dino-pickup y una vez creado se mete en el inventario del dino y en la rueda de opciones del dino dejara hacer pick-up y lo tendras al hombro, muy util en cuevas. </> \n",
-	  "title4": "MOD DE REINICIO NIVELES DINO:",
+	  "title4": "MOD REINICIO NIVELES DINO:",
           "text4": "<RichColor Color=\"1,0,0,1\"> Habra un engrama de crear un objeto llamado dino mindwipe que si se le aplica al dino reinicias los nv y te deja reasignarlos. </>",
           "imageurl": "https://i.imgur.com/UnD8OiD.png"
         }
