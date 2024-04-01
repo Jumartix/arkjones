@@ -39,8 +39,8 @@
           "buttontext": "<TextStyle.Yellow>MOD</>",
           "title1": "AJUSTES DE MODS:",
           "text1": "<RichColor Color=\"0,0,1,1\"> MOD CURA VIDARK: Puedes tener una Station de Vidark para curar tus dinos y ati rapido, para usarse crear Vidark station y Concrented brew en mesa quimica, luego con energia se mete el concentred y enciende. </> \n\n <RichColor Color=\"0,1,0,1\"> MOD POLIMERO Y MUD CAKE:Ya puedes convertir el polimero organico a normal con una maquina, otro mod es que si haces un cake especial o mud cake te conviertes el monstruo mierda 5 min. </> \n\n <RichColor Color=\"1,0,0,1\"> MOD REINICIO NV DINO: Habra un engrama de crear un objeto llamado dino mindwipe que si se le aplica al dino reinicias los nv y te deja reasignarlos. </>",
-          "title2": "MOD DE YATE:",
-          "text2": "<RichColor Color=\"0.5,0,0.5,1\"> Existe la opcion de crearte tu propio yate de ensueño en ark, es sencillo de hacer, existe un engrama llamado HoningMachine que te hara poner una estacion de creacion del yate para elaborarlo, es sencillo. </> \n",
+          "title2": "MOD DE DECORACION:",
+          "text2": "<RichColor Color=\"0.5,0,0.5,1\"> Existe la opcion de crearte tu propia casa de ensueño en ark, dispondras de mesas o engramas de creacion, es sencillo. </> \n",
 	  "title3": "MOD DE DINOS AL HOMBRO:",
           "text3": "<RichColor Color=\"0,1,0,1\"> Existe la opcion de usar un engrama llamado dino-pickup y una vez creado se mete en el inventario del dino y en la rueda de opciones del dino dejara hacer pick-up y lo tendras al hombro, muy util en cuevas. </> \n",
           "imageurl": "https://i.imgur.com/UnD8OiD.png"
@@ -54,7 +54,7 @@
           "text1": "<RichColor Color=\"1,0.65,0,1\">MOD ALMACENAMIENTO VISUAL: En la herreria se dispone de nuevas estructuras para almacenar materiales por categoria de forma que estando ahi pueden usarse desde herreria, fabricador o cualquier crafteo en mesas. </> \n\n <RichColor Color=\"1,0.65,0,1\">MOD R-REAPER EMBARAZO: Ahora podras tener tu propio R-Reaper si consigues un diente de Tyranosaurio Alfa y crafteas Reaper Gland que consumes y te embaraza. </>",
           "title2": "MOD OBJETOS REUTILIZABLES:",
           "text2": "<RichColor Color=\"0,1,0,1\">Puedes crear objetos que se utilizan de forma infinita como graplins, etc </> \n",
-	  "title3": "MOD HUMANOS EN ASA:",
+	  "title3": "MOD HUMANOS EN ASA(TEST):",
           "text3": "<RichColor Color=\"1,0,1,1\">Podras ver humanos en el server salvajes que seran pacificos o hostiles y podras tamearlos y utilizar sus recursos a tu favor ademas de proteger tu base o llevarlos contigo. </> \n",
 	  "title4": "DONADORES Y DONADORES VIP:",
           "text4": "<RichColor Color=\"1,0,0,1\">Ambos dispondran como el resto del kit base mas un kit avanzado si lo desean, tambien los vip tendran acceso admin como moderador. Caracteristicas:</> \n Donador es entre 20 y 39 euros ANUALES, Donador VIP superior a 40 euros. \n Eleccion sobre mejoras o cambio mods. \n Rango Discord. \n Uso de dos bases siendo donador, el resto solo una. \n Podran crear encuestas. \n Daran soporte adicional en Server y Discord \n Unete al Staff del server!! ",
@@ -65,13 +65,13 @@
     "links": [
       {
         "link1": {
-          "text": "DISCORD JONES",
+          "text": "DISCORD JONES AQUI",
           "url": "https://discord.com/invite/jmE8cFGejJ"
         }
       },
       {
         "link2": {
-          "text": "DONAR",
+          "text": "DONAR AQUI",
           "url": "https://www.paypal.me/juanlu91"
         }
       },
