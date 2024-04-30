@@ -38,7 +38,7 @@
           "layout": 3,
           "buttontext": "<TextStyle.Yellow>MOD</>",
           "title1": "AJUSTES DE MODS:",
-          "text1": "<RichColor Color=\"0,0,1,1\"> MOD CURA VIDARK: Puedes tener una Station de Vidark para curar tus dinos y ati rapido, para usarse crear Vidark station y Concrented brew en mesa quimica, luego con energia se mete el concentred y enciende. </> \n\n <RichColor Color=\"0,1,0,1\"> MOD POLIMERO Y MUD CAKE:Ya puedes convertir el polimero organico a normal con una maquina, otro mod es que si haces un cake especial o mud cake te conviertes el monstruo mierda 5 min. </> \n\n <RichColor Color=\"1,0,0,1\"> MOD REINICIO NV DINO: Habra un engrama de crear un objeto llamado dino mindwipe que si se le aplica al dino reinicias los nv y te deja reasignarlos. </>",
+          "text1": "<RichColor Color=\"0,0,1,1\"> MOD CURA VIDARK: Puedes tener una Station de Vidark para curar tus dinos y ati rapido, para usarse crear Vidark station y Concrented brew en mesa quimica, luego con energia se mete el concentred y enciende. </> \n\n <RichColor Color=\"0,1,0,1\"> MOD CONVERTIDOR POLIMERO:Ya puedes convertir el polimero organico a normal con una maquina, parecido a una mesa quimica qur te lo genera rapido el cemento por ejemplo. </> \n\n <RichColor Color=\"1,0,0,1\"> MODS OBJETOS: Segun el mapa, habra diferentes objetos para decorar tu base o usar y tener una forma mas de entretenerte dentro del mundo del PVE. </>",
           "title2": "MOD DE DECORACION:",
           "text2": "<RichColor Color=\"0.5,0,0.5,1\"> Existe la opcion de crearte tu propia casa de ensueño en ark, dispondras de mesas o engramas de creacion, es sencillo. </> \n",
 	  "title3": "MOD DE DINOS DISCOVERY SEGUN MAPA:",
@@ -51,7 +51,7 @@
           "layout": 4,
           "buttontext": "<TextStyle.Red>MODS2</>",
           "title1": "AJUSTES DE MODS2:",
-          "text1": "<RichColor Color=\"1,0.65,0,1\">MOD ALMACENAMIENTO VISUAL: En la herreria se dispone de nuevas estructuras para almacenar materiales por categoria de forma que estando ahi pueden usarse desde herreria, fabricador o cualquier crafteo en mesas. </> \n\n <RichColor Color=\"1,0.65,0,1\">MOD R-REAPER EMBARAZO: Ahora podras tener tu propio R-Reaper si consigues un diente de Tyranosaurio Alfa y crafteas Reaper Gland que consumes y te embaraza. </>",
+          "text1": "<RichColor Color=\"1,0.65,0,1\">MOD ALMACENAMIENTO VISUAL: En la herreria se dispone de nuevas estructuras para almacenar materiales por categoria de forma que estando ahi pueden usarse desde herreria, fabricador o cualquier crafteo en mesas. </> \n\n <RichColor Color=\"1,0.65,0,1\">MODS VARIACIONES DINOS: Se pondran diferentes mods que mejoren las condiciones de tu dino como la impronta etc, debido a que siempre habra un balanceo de stats en los dinos y cualquier queja puede suponer el baneo en el server. </>",
           "title2": "MOD OBJETOS REUTILIZABLES:",
           "text2": "<RichColor Color=\"0,1,0,1\">Puedes crear objetos que se utilizan de forma infinita como graplins, etc </> \n",
 	  "title3": "NUEVOS MAPAS PRIVADOS:",
@@ -77,7 +77,7 @@
       },
       {
         "link3": {
-          "text": "PROXIMAMENTE",
+          "text": "PACKS PROXIMAMENTE",
           "url": ""
          }
       }
