@@ -1,89 +1,107 @@
 {
   "WBUI2": {
     "settings": {
-        "OpenButton": 0,
-        "HideIcon": false,
-        "HideIconAfter": 60,
-        "IconURL": "https://i.imgur.com/RGrnwoX.png",
-        "DisableIconText": true,
-        "IconPosition": 0,
-        "IconTextColor": 0,
-        "OpenOnStart": true,
-        "OpenOnStartOnlyNewPlayers": true,
-        "UpdateInterval": 12
+        "openButton": 0,
+        "hideIcon": false,
+        "hideIconAfter": 60,
+        "iconurl": "https://i.imgur.com/RGrnwoX.png",
+        "disableicontext": true,
+        "iconposition": 0,
+        "icontextcolor": 0,
+        "openonstart": true,
+        "openonstartonlynewplayers": true,
+        "UpdateInterval": 24
       },
     "tabs": [
       {
-        "tab1": {
           "layout": 1,
           "buttontext": "<TextStyle.Violet>BIENVENIDO</>",
-          "title1": "¡Gracias por unirte al servidor de Jones!",
-          "text1": "DISCORD URL: https://discord.com/invite/cQ6pG2mm5H \n BOTON DE DONAR (VIP SI DONA MAS DE 40 EUROS Y DONANTE INFERIOR A 40 UNICO PAGO), SE FORMA PARTE DE MODERACION CON SU DONACION. \n QUIEN AYUDE TENDRA PRIVILEGIOS EN EL SERVER (RANGO DISCORD,SUGERIR MODS Y MAPAS,DINOS E ITEMS EN CADA MAPA Y MAS), ES NECESARIO ESTAR EN DISCORD PARA SABER DE TODO. \n\n <RichColor Color=\"1,0.65,0,1\">Normas: Maximo una base en el servidor en caso de crear otra pueden desmontar la anterior y hacerla en otro lugar. </> \n\n <RichColor Color=\"1,0.65,0,1\"> SOLO LOS DONADORES PUEDEN TENER 2 O 3 BASES. </> \n\n <RichColor Color=\"1,0.65,0,1\"> Evitar construccion cerca de obeliscos y cuevas o impedir su acceso. </> \n\n <RichColor Color=\"1,0.65,0,1\"> Evitar una crianza masiva a la vez para no saturar el rendimiento del servidor. </> \n\n <RichColor Color=\"1,0.65,0,1\"> En otros apartados incluimos como usar MODS y otras mecanicas del servidor </> \n\n HAY KIT INICIAL SOLO CUANDO FUNCIONE.",
-          "title2": "JUGADORES ONLINE",
-          "text2": "{playerlist}",
-	  "imageurl": "https://i.imgur.com/UnD8OiD.png"
-        }
-      },
+	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+	  "content": [
+                    {
+                        "title": "¡Gracias por unirte al servidor de Jones!",
+          		"text": "DISCORD URL: https://discord.com/invite/cQ6pG2mm5H \n BOTON DE DONAR (VIP SI DONA MAS DE 40 EUROS Y DONANTE INFERIOR A 40 UNICO PAGO), SE FORMA PARTE DE MODERACION CON SU DONACION. \n QUIEN AYUDE TENDRA PRIVILEGIOS EN EL SERVER (RANGO DISCORD,SUGERIR MODS Y MAPAS,DINOS E ITEMS EN CADA MAPA Y MAS), ES NECESARIO ESTAR EN DISCORD PARA SABER DE TODO. \n\n <RichColor Color=\"1,0.65,0,1\">Normas: Maximo una base en el servidor en caso de crear otra pueden desmontar la anterior y hacerla en otro lugar. </> \n\n <RichColor Color=\"1,0.65,0,1\"> SOLO LOS DONADORES PUEDEN TENER 2 O 3 BASES. </> \n\n <RichColor Color=\"1,0.65,0,1\"> Evitar construccion cerca de obeliscos y cuevas o impedir su acceso. </> \n\n <RichColor Color=\"1,0.65,0,1\"> Evitar una crianza masiva a la vez para no saturar el rendimiento del servidor. </> \n\n <RichColor Color=\"1,0.65,0,1\"> En otros apartados incluimos como usar MODS y otras mecanicas del servidor </> \n\n HAY KIT INICIAL SOLO CUANDO FUNCIONE."
+                    },
+                    {
+                        "title": "JUGADORES ONLINE",
+          		"text": "{playerlist}"
+                    }
+                ]
+     	     },
 	  {
-        "tab2": {
           "layout": 2,
           "buttontext": "<TextStyle.Blue>CASINO Y MERCADO</>",
-          "title1": "AJUSTES DE CASINO Y MERCADO:",
-          "text1": "<RichColor Color=\"1,0,0,1\">MOD CASINO Y MERCADO: Existe una zona en el mapa que se puede acceder por medio de teleports tanto en los obeliscos como en diferentes regiones y tendras tu propio casino donde jugaras a cualquier cosa por objetos avanzados, con monedas de bronce, plata y oro o tienes unas tiendas o casetas al lado donde tendras para vender tus recursos y obtener ark coin para comprar productos en las tiendas que algunos no existe engrama para craftear incluso. </> \n",
-          "title2": "COMPRA Y VENTA DE MERCADO ALIANZA:",
-          "text2": "<RichColor Color=\"0,1,0,1\">MOD CASINO Y MERCADO: Todos podran hacer uso del mercado con ark coin, los donadores vip tendran tienda propia de dinos si la solicitan y seran los moderadores en el server. </> \n",
-          "imageurl": "https://i.imgur.com/UnD8OiD.png"
-        }
-		},
-      {
-        "tab3": {
+	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+		"content": [
+                    {
+                         "title": "AJUSTES DE CASINO Y MERCADO:",
+         		 "text": "<RichColor Color=\"1,0,0,1\">MOD CASINO Y MERCADO: Existe una zona en el mapa que se puede acceder por medio de teleports tanto en los obeliscos como en diferentes regiones y tendras tu propio casino donde jugaras a cualquier cosa por objetos avanzados, con monedas de bronce, plata y oro o tienes unas tiendas o casetas al lado donde tendras para vender tus recursos y obtener ark coin para comprar productos en las tiendas que algunos no existe engrama para craftear incluso. </> \n"
+          
+                    },
+                    {
+                        "title": "COMPRA Y VENTA DE MERCADO ALIANZA:",
+          		"text": "<RichColor Color=\"0,1,0,1\">MOD CASINO Y MERCADO: Todos podran hacer uso del mercado con ark coin, los donadores vip tendran tienda propia de dinos si la solicitan y seran los moderadores en el server. </> \n"
+                    }
+                  ]
+	       },
+      	  {
           "layout": 3,
-          "buttontext": "<TextStyle.Yellow>MOD</>",
-          "title1": "AJUSTES DE MODS:",
-          "text1": "<RichColor Color=\"0,0,1,1\"> MOD CURA VIDARK: Puedes tener una Station de Vidark para curar tus dinos y ati rapido, para usarse crear Vidark station y Concrented brew en mesa quimica, luego con energia se mete el concentred y enciende. </> \n\n <RichColor Color=\"0,1,0,1\"> MOD CONVERTIDOR POLIMERO:Ya puedes convertir el polimero organico a normal con una maquina, parecido a una mesa quimica qur te lo genera rapido el cemento por ejemplo. </> \n\n <RichColor Color=\"1,0,0,1\"> MODS OBJETOS: Segun el mapa, habra diferentes objetos para decorar tu base o usar y tener una forma mas de entretenerte dentro del mundo del PVE. </>",
-          "title2": "MOD DE DECORACION:",
-          "text2": "<RichColor Color=\"0.5,0,0.5,1\"> Existe la opcion de crearte tu propia casa de ensueño en ark, dispondras de mesas o engramas de creacion, es sencillo. </> \n",
-	  "title3": "MOD DE DINOS DISCOVERY SEGUN MAPA:",
-          "text3": "<RichColor Color=\"0,1,0,1\"> Habra dinos de otros mapas aun sin salir en ark, por tanto podreis tamearlos o comprarlos en ma tienda de dinos de los mercaderes. Incluso podreis vender dinos a traves de donadores llevandose ellos una comision. </> \n",
-          "imageurl": "https://i.imgur.com/UnD8OiD.png"
-        }
-		},
-		{
-        "tab4": {
+          "buttontext": "<TextStyle.Yellow>LISTA DE MODS</>",
+	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+			"content": [
+                    {
+                        "title": "AJUSTES DE MODS:",
+          		"text": "<RichColor Color=\"0,0,1,1\"> MOD CURA VIDARK: Puedes tener una Station de Vidark para curar tus dinos y ati rapido, para usarse crear Vidark station y Concrented brew en mesa quimica, luego con energia se mete el concentred y enciende. </> \n\n <RichColor Color=\"0,1,0,1\"> MOD CONVERTIDOR POLIMERO:Ya puedes convertir el polimero organico a normal con una maquina, parecido a una mesa quimica qur te lo genera rapido el cemento por ejemplo. </> \n\n <RichColor Color=\"1,0,0,1\"> MODS OBJETOS: Segun el mapa, habra diferentes objetos para decorar tu base o usar y tener una forma mas de entretenerte dentro del mundo del PVE. </>"
+                    },
+                    {
+                        "title": "MOD DE DECORACION:",
+         	 	"text": "<RichColor Color=\"0.5,0,0.5,1\"> Existe la opcion de crearte tu propia casa de ensueño en ark, dispondras de mesas o engramas de creacion, es sencillo. </> \n"
+                    },
+                    {
+                        "title": "MOD DE DINOS DISCOVERY SEGUN MAPA:",
+          		"text": "<RichColor Color=\"0,1,0,1\"> Habra dinos de otros mapas aun sin salir en ark, por tanto podreis tamearlos o comprarlos en ma tienda de dinos de los mercaderes. Incluso podreis vender dinos a traves de donadores llevandose ellos una comision. </> \n"
+                    }
+                ]
+	     },
+	  {
           "layout": 4,
-          "buttontext": "<TextStyle.Red>MODS2</>",
-          "title1": "AJUSTES DE MODS2:",
-          "text1": "<RichColor Color=\"1,0.65,0,1\">MOD ALMACENAMIENTO VISUAL: En la herreria se dispone de nuevas estructuras para almacenar materiales por categoria de forma que estando ahi pueden usarse desde herreria, fabricador o cualquier crafteo en mesas. </> \n\n <RichColor Color=\"1,0.65,0,1\">MODS VARIACIONES DINOS: Se pondran diferentes mods que mejoren las condiciones de tu dino como la impronta etc, debido a que siempre habra un balanceo de stats en los dinos y cualquier queja puede suponer el baneo en el server. </>",
-          "title2": "MOD OBJETOS REUTILIZABLES:",
-          "text2": "<RichColor Color=\"0,1,0,1\">Puedes crear objetos que se utilizan de forma infinita como graplins, etc </> \n",
-	  "title3": "NUEVOS MAPAS PRIVADOS:",
-          "text3": "<RichColor Color=\"1,0,1,1\">Los donadores tendran la posibilidad de disfrutar del mapa de forma privada las primeras 48 horas para ubicarse dentro del server y conocer su entorno, despues sera abierto al publico. </> \n",
-	  "title4": "DONADORES Y DONADORES VIP:",
-          "text4": "<RichColor Color=\"1,0,0,1\">Ambos dispondran como el resto del kit base mas un kit avanzado si lo desean, tambien los vip tendran acceso admin como moderador. Caracteristicas:</> \n Donador es entre 20 y 39 euros ANUALES, Donador VIP superior a 40 euros. \n Eleccion sobre mejoras o cambio mods. \n Rango Discord. \n Uso de dos bases siendo donador, el resto solo una. \n Podran crear encuestas. \n Daran soporte adicional en Server y Discord \n Unete al Staff del server!! ",
-          "imageurl": "https://i.imgur.com/UnD8OiD.png"
-        }
-      }
+          "buttontext": "<TextStyle.Red>LISTA DE MODS 2</>",
+	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+		  "content": [
+                    {
+                        "title": "AJUSTES DE MODS2:",
+          		"text": "<RichColor Color=\"1,0.65,0,1\">MOD ALMACENAMIENTO VISUAL: En la herreria se dispone de nuevas estructuras para almacenar materiales por categoria de forma que estando ahi pueden usarse desde herreria, fabricador o cualquier crafteo en mesas. </> \n\n <RichColor Color=\"1,0.65,0,1\">MODS VARIACIONES DINOS: Se pondran diferentes mods que mejoren las condiciones de tu dino como la impronta etc, debido a que siempre habra un balanceo de stats en los dinos y cualquier queja puede suponer el baneo en el server. </>"
+                    },
+                    {
+                        "title": "MOD OBJETOS REUTILIZABLES:",
+          		"text": "<RichColor Color=\"0,1,0,1\">Puedes crear objetos que se utilizan de forma infinita como graplins, etc </> \n"
+                    },
+                    {
+                        "title3": "NUEVOS MAPAS PRIVADOS:",
+          		"text3": "<RichColor Color=\"1,0,1,1\">Los donadores tendran la posibilidad de disfrutar del mapa de forma privada las primeras 48 horas para ubicarse dentro del server y conocer su entorno, despues sera abierto al publico. </> \n"
+                    },
+                    {
+                        "title4": "DONADORES Y DONADORES VIP:",
+          		"text4": "<RichColor Color=\"1,0,0,1\">Ambos dispondran como el resto del kit base mas un kit avanzado si lo desean, tambien los vip tendran acceso admin como moderador. Caracteristicas:</> \n Donador es entre 20 y 39 euros ANUALES, Donador VIP superior a 40 euros. \n Eleccion sobre mejoras o cambio mods. \n Rango Discord. \n Uso de dos bases siendo donador, el resto solo una. \n Podran crear encuestas. \n Daran soporte adicional en Server y Discord \n Unete al Staff del server!! "
+                    }
+                ]
+         }
     ],
     "links": [
       {
-        "link1": {
           "text": "DISCORD JONES AQUI",
           "url": "https://discord.com/invite/jmE8cFGejJ"
-        }
       },
       {
-        "link2": {
           "text": "DONAR AQUI",
           "url": "https://www.paypal.me/juanlu91"
-        }
       },
       {
-        "link3": {
-          "text": "PACKS PROXIMAMENTE",
+          "text": "PROXIMAMENTE",
           "url": ""
-         }
       }
-    ]
+    ],
+    "version": 2
   }
 }
 	  
