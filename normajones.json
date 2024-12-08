@@ -73,12 +73,12 @@
           		"text": "<RichColor Color=\"0,1,0,1\">MEDIANTE DONACION ANUAL PUEDES SOLICITAR DOS DINOS Y DOS OBJETOS DE UNA ELECCION AMPLIA EN CADA MAPA SIEMPRE QUE ESTE DISPONIBLE, ASIQUE APROVECHA A PEDIRLO!! </> \n"
                     },
                     {
-                        "title3": "NUEVOS MAPAS PRIVADOS:",
-          		"text3": "<RichColor Color=\"1,0,1,1\">Los donadores tendran la posibilidad de disfrutar del mapa de forma privada las primeras 48 horas para ubicarse dentro del server y conocer su entorno (SIEMPRE QUE LO SOLICITEN), despues sera abierto al publico. </> \n"
+                        "title": "NUEVOS MAPAS PRIVADOS:",
+          		"text": "<RichColor Color=\"1,0,1,1\">Los donadores tendran la posibilidad de disfrutar del mapa de forma privada las primeras 48 horas para ubicarse dentro del server y conocer su entorno (SIEMPRE QUE LO SOLICITEN), despues sera abierto al publico. </> \n"
                     },
                     {
-                        "title4": "DONADORES Y DONADORES VIP:",
-          		"text4": "<RichColor Color=\"1,0,0,1\">Ambos dispondran como el resto del kit base mas un kit avanzado si lo desean, tambien los vip tendran acceso admin como moderador. Caracteristicas:</> \n Donador es entre 20 y 39 euros ANUALES, Donador VIP superior a 40 euros. \n Eleccion sobre mejoras o cambio mods. \n Rango Discord. \n Uso de dos bases siendo donador, el resto solo una. \n Podran crear encuestas. \n Daran soporte adicional en Server y Discord \n Unete al Staff del server!! "
+                        "title": "DONADORES Y DONADORES VIP:",
+          		"text": "<RichColor Color=\"1,0,0,1\">Ambos dispondran como el resto del kit base mas un kit avanzado si lo desean, tambien los vip tendran acceso admin como moderador. Caracteristicas:</> \n Donador es entre 20 y 39 euros ANUALES, Donador VIP superior a 40 euros. \n Eleccion sobre mejoras o cambio mods. \n Rango Discord. \n Uso de dos bases siendo donador, el resto solo una. \n Podran crear encuestas. \n Daran soporte adicional en Server y Discord \n Unete al Staff del server!! "
                     }
                 ]
          }
