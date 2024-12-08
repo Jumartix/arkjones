@@ -26,7 +26,7 @@
      	     },
 	  {
           "layout": 2,
-          "buttontext": "<TextStyle.Blue>CASINO/MERCADO Y JUGADORES</>",
+          "buttontext": "<TextStyle.Blue>CASINO|MERCADO|JUGADORES</>",
 	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
 		"content": [
                     {
