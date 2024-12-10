@@ -4,7 +4,7 @@
         "openButton": 0,
         "hideIcon": false,
         "hideIconAfter": 60,
-        "iconurl": "https://i.imgur.com/RGrnwoX.png",
+        "iconurl": "https://i.imgur.com/D0p4XGT.png",
         "disableicontext": true,
         "iconposition": 0,
         "icontextcolor": 0,
@@ -16,7 +16,7 @@
       {
           "layout": 1,
           "buttontext": "<TextStyle.Violet>BIENVENIDO</>",
-	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+	  "imageurl": "https://i.imgur.com/MPNjXax.jpeg",
 	  "content": [
                     {
                         "title": "¡Gracias por unirte al servidor de Jones!",
@@ -27,7 +27,7 @@
 	  {
           "layout": 2,
           "buttontext": "<TextStyle.Blue>CASINO|MERCADO|JUGADORES</>",
-	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+	  "imageurl": "https://i.imgur.com/eAPkJB9.jpeg",
 		"content": [
                     {
                          "title": "AJUSTES DE CASINO Y MERCADO:",
@@ -43,7 +43,7 @@
       	  {
           "layout": 3,
           "buttontext": "<TextStyle.Yellow>MODS Y EVENTOS</>",
-	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+	  "imageurl": "https://i.imgur.com/DrZ4qu7.jpeg",
 			"content": [
                     {
                         "title": "AJUSTES DE MODS:",
@@ -62,7 +62,7 @@
 	  {
           "layout": 4,
           "buttontext": "<TextStyle.Red>SUBASTAS Y VIP</>",
-	  "imageurl": "https://i.imgur.com/UnD8OiD.png",
+	  "imageurl": "https://i.imgur.com/8q5PBjs.jpeg",
 		  "content": [
                     {
                         "title": "SUBASTAS:",
