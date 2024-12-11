@@ -20,7 +20,7 @@
 	  "content": [
                     {
                     "title": "¡Gracias por unirte al servidor de Jones!",
-          	    "text": "DISCORD URL: https://discord.com/invite/cQ6pG2mm5H \n BOTON DE DONAR (VIP SI DONA MAS DE 40 EUROS Y DONANTE INFERIOR A 40 UNICO PAGO), SE FORMA PARTE DE MODERACION CON SU DONACION. \n QUIEN AYUDE TENDRA PRIVILEGIOS EN EL SERVER (RANGO DISCORD,SUGERIR MODS Y MAPAS,DINOS E ITEMS EN CADA MAPA Y MAS), ES NECESARIO ESTAR EN DISCORD PARA SABER DE TODO. \n\n <RichColor Color=\"1,0.65,0,1\">NORMATIVA BASICA: - EVITAR EL USO DE HUMANO COMO NOMBRE, EN ESE CASO SE ASIGNARAN ALEATORIOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - SOLO UNA BASE POR TRIBU Y DOS PARA DONADORES. </> \n <RichColor Color=\"1,0.65,0,1\"> - KIT DISPONIBLE EN EL MAPA. </> \n <RichColor Color=\"1,0.65,0,1\"> - PROHIBIDO INSULTARSE Y FALTARSE AL RESPETO, TODO DEBE HABLARSE. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO PERJUDICAR A OTROS USUARIOS ROBANDO, EN CASO DE TROLEO SE DEVUELVE, SINO ES MOTIVO DIRECTO DE BANEO. </> \n <RichColor Color=\"1,0.65,0,1\"> - EXISTEN ROLES PUNTUALES PARA QUE OS ENTRETENGAN, DISFRUTARLOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR ESTRUCTURAS SUELTAS POR EL MAPA ES MOTIVO DE BANEOS O WIPEOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - EN CASO DE NO JUGAR MAS EN EL MAPA COMUNICARLO EN  DISCORD CON LAS COORDENADAS PARA LIMPIARLO. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR MAS DE UN DIA EN MERCADO O CASINO LOS DINOS SALVO AVISEN, ES UN MOTIVO DE QUE SE MATEN PARA NO ACUMULARSE EN LA ZONA. </> \n <RichColor Color=\"1,0.65,0,1\"> - HAY TELEPORT POR EL MAPA PARA IR AL MERCADO O A LA VENTA DE DINOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - CUANDO HAYA PROBLEMAS DE SERVIDOR COMUNICARLO EN DISCORD YA QUE SUELE PASAR EN MUCHOS SERVERS Y NO DEPENDE SOLO DE LA ADMINISTRACION, SON ERRORES DE JUEGO. </>"
+          	    "text": "DISCORD URL: https://discord.com/invite/cQ6pG2mm5H \n BOTON DE DONAR (VIP SI DONA MAS DE 40 EUROS Y DONANTE INFERIOR A 40 UNICO PAGO), SE FORMA PARTE DE MODERACION CON SU DONACION. \n QUIEN AYUDE TENDRA PRIVILEGIOS EN EL SERVER (RANGO DISCORD,SUGERIR MODS Y MAPAS,DINOS E ITEMS EN CADA MAPA Y MAS), ES NECESARIO ESTAR EN DISCORD PARA SABER DE TODO. \n\n <RichColor Color=\"1,0.65,0,1\">NORMATIVA BASICA: </> \n <RichColor Color=\"1,0.65,0,1\">- EVITAR EL USO DE HUMANO COMO NOMBRE, EN ESE CASO SE ASIGNARAN ALEATORIOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - SOLO UNA BASE POR TRIBU Y DOS PARA DONADORES. </> \n <RichColor Color=\"1,0.65,0,1\"> - KIT DISPONIBLE EN EL MAPA. </> \n <RichColor Color=\"1,0.65,0,1\"> - PROHIBIDO INSULTARSE Y FALTARSE AL RESPETO, TODO DEBE HABLARSE. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO PERJUDICAR A OTROS USUARIOS ROBANDO, EN CASO DE TROLEO SE DEVUELVE, SINO ES MOTIVO DIRECTO DE BANEO. </> \n <RichColor Color=\"1,0.65,0,1\"> - EXISTEN ROLES PUNTUALES PARA QUE OS ENTRETENGAN, DISFRUTARLOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR ESTRUCTURAS SUELTAS POR EL MAPA ES MOTIVO DE BANEOS O WIPEOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - EN CASO DE NO JUGAR MAS EN EL MAPA COMUNICARLO EN  DISCORD CON LAS COORDENADAS PARA LIMPIARLO. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR MAS DE UN DIA EN MERCADO O CASINO LOS DINOS SALVO AVISEN, ES UN MOTIVO DE QUE SE MATEN PARA NO ACUMULARSE EN LA ZONA. </> \n <RichColor Color=\"1,0.65,0,1\"> - HAY TELEPORT POR EL MAPA PARA IR AL MERCADO O A LA VENTA DE DINOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - CUANDO HAYA PROBLEMAS DE SERVIDOR COMUNICARLO EN DISCORD YA QUE SUELE PASAR EN MUCHOS SERVERS Y NO DEPENDE SOLO DE LA ADMINISTRACION, SON ERRORES DE JUEGO. </>"
 
                     }
                 ]
@@ -43,20 +43,20 @@
 	       },
       	  {
           "layout": 3,
-          "buttontext": "<TextStyle.Yellow>MODS Y EVENTOS</>",
+          "buttontext": "<TextStyle.Yellow>EVENTOS</>",
 	  "imageurl": "https://i.imgur.com/VuKUSNc.jpeg",
 			"content": [
                     {
-                        "title": "AJUSTES DE MODS:",
-          		"text": "<RichColor Color=\"0,0,1,1\"> MOD CURA VIDARK: Puedes tener una Station de Vidark para curar tus dinos y ati rapido, para usarse crear Vidark station y Concrented brew en mesa quimica, luego con energia se mete el concentred y enciende. </> \n\n  <RichColor Color=\"1,0,0,1\"> MODS OBJETOS Y TEMATICA: Segun el mapa, habra diferentes objetos para decorar tu base o usar segun la tematica del mapa tambien cambiaran estos mods y tener una forma mas de entretenerte dentro del mundo del PVE. </>"
-                    },
-                    {
-                        "title": "MOD DE DECORACION:",
-         	 	"text": "<RichColor Color=\"0.5,0,0.5,1\"> Existe la opcion de crearte tu propia casa de ensueño en ark, dispondras de mesas o engramas de creacion, es sencillo. </> \n"
-                    },
-                    {
                         "title": "EVENTOS:",
-          		"text": "<RichColor Color=\"0,1,0,1\"> Se podra participar avisando al administracion de diferentes eventos en ark, por tanto podreis participar con premios exclusivos y dejando algunos eventos para siempre en el mapa. </> \n"
+          		"text": "<RichColor Color=\"0,0,1,1\">- SE PODRA PARTICIPAR EN EVENTOS QUE ORGANIZA LA ADMINISTRACION PARA TODOS, DONDE LOS MEJORES OBTENDRAN RECOMEPNSAS POR JUGAR Y EL RESTO SE LLEVARAN UN OBSEQUIO A CAMBIO, INICIALMENTE HABRA MINIMO UN EVENTO POR MAPA, DESPUES SE ORGANIZARA TODO SEGUN LA GENTE ACTIVA EN EL SERVIDOR. OS VEREMOS PRONTO!! </> \n\n  <RichColor Color=\"1,0,0,1\"> - SE PODRAN HACER EVENTOS ENTRE USTEDES DE FORMA INFORMAL Y EN CASO DE AGRADAR A LA ADMINISTRACION OS DARA ALGUNA RECOMPENSA POR IDEA Y ESFUERZO. ASIQUE DARLE DURO!! </>"
+                    },
+                    {
+                        "title": "INFORMACION DE EVENTOS:",
+         	 	"text": "<RichColor Color=\"0.5,0,0.5,1\"> SE ORGANIZARAN MEDIANTE ENCUESTAS EN EL CANAL ACORDE DE DISCORD, ES DECIR, SE PROPONDRA UN DIA Y FECHA APROXIMADOS QUE MEJOR SE ADAPTEN PARA PARTICIPAR LA MAYORIA Y ALGUNOS PODRAN REPETIRSE. </> \n"
+                    },
+                    {
+                        "title": "TIEMPO Y LIMITACION EVENTO:",
+          		"text": "<RichColor Color=\"0,1,0,1\"> LOS EVENTOS DEBEN HACERSE EN 1 HORA APROXIMADA, POSTERIORMENTE A ELLO ALGUNOS QUEDARAN PARA SIEMPRE Y PODREIS PARTICIPAR DE FORMA INDEPENDIENTE A ELLOS CUANDO OS ABURRAIS!! </> \n"
                     }
                 ]
 	     },
