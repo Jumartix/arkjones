@@ -19,8 +19,9 @@
 	  "imageurl": "https://i.imgur.com/MPNjXax.jpeg",
 	  "content": [
                     {
-                        "title": "¡Gracias por unirte al servidor de Jones!",
-          		"text": "DISCORD URL: https://discord.com/invite/cQ6pG2mm5H \n BOTON DE DONAR (VIP SI DONA MAS DE 40 EUROS Y DONANTE INFERIOR A 40 UNICO PAGO), SE FORMA PARTE DE MODERACION CON SU DONACION. \n QUIEN AYUDE TENDRA PRIVILEGIOS EN EL SERVER (RANGO DISCORD,SUGERIR MODS Y MAPAS,DINOS E ITEMS EN CADA MAPA Y MAS), ES NECESARIO ESTAR EN DISCORD PARA SABER DE TODO. \n\n <RichColor Color=\"1,0.65,0,1\">Normas: Maximo una base en el servidor en caso de crear otra pueden desmontar la anterior y hacerla en otro lugar. </> \n\n <RichColor Color=\"1,0.65,0,1\"> SOLO LOS DONADORES PUEDEN TENER 2 O 3 BASES. </> \n\n <RichColor Color=\"1,0.65,0,1\"> Evitar construccion cerca de obeliscos y cuevas o impedir su acceso. </> \n\n <RichColor Color=\"1,0.65,0,1\"> Evitar una crianza masiva a la vez para no saturar el rendimiento del servidor. </> \n\n <RichColor Color=\"1,0.65,0,1\"> En otros apartados incluimos como usar MODS y otras mecanicas del servidor </> \n\n HAY KIT INICIAL SOLO CUANDO FUNCIONE."
+                    "title": "¡Gracias por unirte al servidor de Jones!",
+          	    "text": "DISCORD URL: https://discord.com/invite/cQ6pG2mm5H \n BOTON DE DONAR (VIP SI DONA MAS DE 40 EUROS Y DONANTE INFERIOR A 40 UNICO PAGO), SE FORMA PARTE DE MODERACION CON SU DONACION. \n QUIEN AYUDE TENDRA PRIVILEGIOS EN EL SERVER (RANGO DISCORD,SUGERIR MODS Y MAPAS,DINOS E ITEMS EN CADA MAPA Y MAS), ES NECESARIO ESTAR EN DISCORD PARA SABER DE TODO. \n\n <RichColor Color=\"1,0.65,0,1\">NORMATIVA BASICA: - EVITAR EL USO DE HUMANO COMO NOMBRE, EN ESE CASO SE ASIGNARAN ALEATORIOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - SOLO UNA BASE POR TRIBU Y DOS PARA DONADORES. </> \n <RichColor Color=\"1,0.65,0,1\"> - KIT DISPONIBLE EN EL MAPA. </> \n <RichColor Color=\"1,0.65,0,1\"> - PROHIBIDO INSULTARSE Y FALTARSE AL RESPETO, TODO DEBE HABLARSE. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO PERJUDICAR A OTROS USUARIOS ROBANDO, EN CASO DE TROLEO SE DEVUELVE, SINO ES MOTIVO DIRECTO DE BANEO. </> \n <RichColor Color=\"1,0.65,0,1\"> - EXISTEN ROLES PUNTUALES PARA QUE OS ENTRETENGAN, DISFRUTARLOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR ESTRUCTURAS SUELTAS POR EL MAPA ES MOTIVO DE BANEOS O WIPEOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - EN CASO DE NO JUGAR MAS EN EL MAPA COMUNICARLO EN  DISCORD CON LAS COORDENADAS PARA LIMPIARLO. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR MAS DE UN DIA EN MERCADO O CASINO LOS DINOS SALVO AVISEN, ES UN MOTIVO DE QUE SE MATEN PARA NO ACUMULARSE EN LA ZONA. </> \n <RichColor Color=\"1,0.65,0,1\"> - HAY TELEPORT POR EL MAPA PARA IR AL MERCADO O A LA VENTA DE DINOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - CUANDO HAYA PROBLEMAS DE SERVIDOR COMUNICARLO EN DISCORD YA QUE SUELE PASAR EN MUCHOS SERVERS Y NO DEPENDE SOLO DE LA ADMINISTRACION, SON ERRORES DE JUEGO. </>"
+
                     }
                 ]
      	     },
@@ -31,7 +32,7 @@
 		"content": [
                     {
                          "title": "AJUSTES DE CASINO Y MERCADO:",
-         		 "text": "<RichColor Color=\"1,0,0,1\">MOD CASINO Y MERCADO: Existe una zona en el mapa que se puede acceder por medio de teleports tanto en los obeliscos como en diferentes regiones y tendras tu propio casino donde jugaras a cualquier cosa por objetos avanzados, con monedas de BRONCE, PLAYA y ORO (SUBASTAS Y EVENTOS) o tienes unas tiendas o casetas al lado donde tendras para vender tus recursos y obtener ark coin para comprar productos en las tiendas que algunos no existe engrama para craftear incluso. </> \n"
+         		 "text": "<RichColor Color=\"1,0,0,1\">MOD CASINO Y MERCADO: EXISTE UNA ZONA DEL MAPA DONDE HABRA UNA ZONA DE CASINO Y MERCADO CON ACCESO DE TELEPORTS POR EL MAPA, EN ELLO PUEDES MEDIANTE ARKCOIN COMPRAR ITEMS AVANZADOS EN TIENDAS O CON MONEDAS DE BRONCE Y PLATA JUGAR Y GANAR PREMIOS, LA MONEDA DE ORO (SUBASTAS Y EVENTOS). ADEMAS HABRA RECOMPENSAS DIARIAS QUE OS DARAN MONEDAS. DISFRUTAD!! </> \n"
           
                     },
                     {
@@ -66,19 +67,19 @@
 		  "content": [
                     {
                         "title": "SUBASTAS:",
-          		"text": "<RichColor Color=\"1,0.65,0,1\">SUBASTA AL AZAR: Se crearan subastas donde se participara y el ganador tirara de la ruleta y la cantidad de monedas de ORO le dara la opcion de comprar los dinos que pueda en esa caseta a mas monedas mejores dinos puedes pujar varias veces y ganar mas!!. </> \n\n <RichColor Color=\"1,0.65,0,1\">SUBASTAS BASE: Se pondra obtener de forma exclusiva alguna base de mapa antiguo muy mejorada y disfrutar de ella en alguna subasta. </>"
+          		"text": "<RichColor Color=\"1,0.65,0,1\">SUBASTA AL AZAR: SE CREARAN SUBASTAS DONDE SE PARTICIPARA MEDIANTE UN SISTEMA DE RULETA EXCLUSIVO, EL GANADOR HARA UNA TIRADA Y OBTENDRA X MONEDAS DE ORO PARA COMPRAR DINO QUE TENGA DISPONIBLE CON DICHAS MONEDAS, ES UN SISTEMA PARA DAR POSIBILIDAD A TODOS. </> \n\n <RichColor Color=\"1,0.65,0,1\">SUBASTAS BASE: SE PODRA OBTENER DE FORMA EXCLUSIVA METODO TRADICIONAL DE SUBASTA MOSTRANDO 1 A 1 CADA DINO Y SE PUJARA HASTA LA CIFRA MAS ALTA QUE GANARA DICHO DINO, SE USARA PARA CANJEAR POR SEGURIDAD IGUAL LAS MONEDAS DE ORO. PARA LAS PUJAS LA MONEDA EXCLUSIVA SERA EL ARKCOIN!! TAMBIEN SE INCLUYE A VECES ALGUNA BASE SORPRESA PARA SUBASTAR. </>"
                     },
                     {
                         "title": "PRIVILEGIOS VIP:",
-          		"text": "<RichColor Color=\"0,1,0,1\">MEDIANTE DONACION ANUAL PUEDES SOLICITAR DOS DINOS Y DOS OBJETOS DE UNA ELECCION AMPLIA EN CADA MAPA SIEMPRE QUE ESTE DISPONIBLE, ASIQUE APROVECHA A PEDIRLO!! </> \n"
+          		"text": "<RichColor Color=\"0,1,0,1\">MEDIANTE DONACION ANUAL PUEDES SOLICITAR 1-2-3 DINOS Y OBJETOS DE UNA ELECCION AMPLIA EN CADA MAPA SIEMPRE QUE ESTE DISPONIBLE, ASIQUE APROVECHA A PEDIRLO!! </> \n"
                     },
                     {
-                        "title": "NUEVOS MAPAS PRIVADOS:",
-          		"text": "<RichColor Color=\"1,0,1,1\">Los donadores tendran la posibilidad de disfrutar del mapa de forma privada las primeras 48 horas para ubicarse dentro del server y conocer su entorno (SIEMPRE QUE LO SOLICITEN), despues sera abierto al publico. </> \n"
+                        "title": "ACCESO ZONA DONADOR:",
+          		"text": "<RichColor Color=\"1,0,1,1\"> AQUELLOS QUE SEAN DONADORES DISPONEN DE UNA ZONA DONDE PUEDEN OBTENER COMPRANDO O JUGANDO OBJETOS DE MEJOR CALIDAD QUE LOS DEL CASINO HABITUAL, ES UNA FORMA DE RECOMPENSAR AQUELLOS QUE MANTIENEN EL SERVIDOR. </> \n"
                     },
                     {
                         "title": "DONADORES Y DONADORES VIP:",
-          		"text": "<RichColor Color=\"1,0,0,1\">Ambos dispondran como el resto del kit base mas un kit avanzado si lo desean, tambien los vip tendran acceso admin como moderador. Caracteristicas:</> \n Donador es entre 20 y 39 euros ANUALES, Donador VIP superior a 40 euros. \n Eleccion sobre mejoras o cambio mods. \n Rango Discord. \n Uso de dos bases siendo donador, el resto solo una. \n Podran crear encuestas. \n Daran soporte adicional en Server y Discord \n Unete al Staff del server!! "
+          		"text": "<RichColor Color=\"1,0,0,1\">AMBOS DISPONDRAN DEL KIT BASE MAS UN KIT AVANZADO EN LA ZONA DONADOR COMO PRIVILEGIO, TAMBIEN LOS VIP PUEDEN SOLICITAR COLABORAR COMO ADMIN EN EL SERVER. CARACTERISTICAS:</> \n DONADOR: ENTRE 25-39.99 EUROS ANUALES (2 DINOS Y 2 ITEMS A ELEGIR), DONADOR VIP SUPERIOR A 40 EUROS (3 DINOS Y 3 ITEMS A ELEGIR). \n - SUGERENVCIA SOBRE MEJORAS O MODS. \n RANGO DISCORD. \n - USO DE DOS BASES PARA CUALQUIER DONADOR, GENTE NORMAL SOLO UNA BASE. \n - SUS VOTOS TIENEN MAS VALOR EN ENCUESTAS. \n - DARAN SOPORTE ADICIONAL EN SERVER Y DISCORD \n ¡¡UNETE AL STAFF DEL SERVER!! "
                     }
                 ]
          }
