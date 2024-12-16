@@ -1,22 +1,78 @@
 {
     "items": [
         {
-            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BroodMother.PrimalItemSkin_ChibiDino_BroodMother_C",
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/Test/PrimalItem_WeaponGPS.PrimalItem_WeaponGPS",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItem_ChibiDino_RandomCraftable_Common.PrimalItem_ChibiDino_RandomCraftable_Common",
+            "quantity": 2
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItem_ChibiDino_RandomCraftable_VeryRare.PrimalItem_ChibiDino_RandomCraftable_VeryRare",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCompoundBow.PrimalItem_WeaponCompoundBow",
             "quantity": 1
         },
         {
-            "path": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis_Golden.PrimalItemConsumable_Egg_Hesperonis_Golden_C",
+            "path": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq",
+            "quantity": 80
+        },
+        {
+            "path": "/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_MushroomSoup.PrimalItemConsumable_Soup_MushroomSoup",
             "quantity": 1
+        },
+        {
+            "path": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemWeaponGeneric.PrimalItemWeaponGeneric",
+            "quantity": 2
+        },
+        {
+            "path": "/Game/Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Medium.PrimalItemStructure_TaxidermyBase_Medium",
+            "quantity": 4
+        },
+        {
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek",
+            "quantity": 1
+        },
+	{
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky",
+            "quantity": 50
         }
     ],
     "creatures": [
         {
-            "path": "/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning_C",
-            "level": 190
-        },
-        {
-            "path": "/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire_C",
-            "level": 190
+            "path": "/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP",
+            "level": 120
         }
     ]
 }
