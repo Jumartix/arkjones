@@ -1,1 +1,22 @@
-
+{
+    "items": [
+        {
+            "path": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BroodMother.PrimalItemSkin_ChibiDino_BroodMother_C",
+            "quantity": 1
+        },
+        {
+            "path": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis_Golden.PrimalItemConsumable_Egg_Hesperonis_Golden_C",
+            "quantity": 1
+        }
+    ],
+    "creatures": [
+        {
+            "path": "/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning_C",
+            "level": 190
+        },
+        {
+            "path": "/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire_C",
+            "level": 190
+        }
+    ]
+}
