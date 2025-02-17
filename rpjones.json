@@ -1,0 +1,103 @@
+{
+  "WBUI2": {
+    "settings": {
+        "openButton": 0,
+        "hideIcon": false,
+        "hideIconAfter": 60,
+        "iconurl": "https://i.imgur.com/5kzAucn.png",
+        "disableicontext": true,
+        "iconposition": 0,
+        "icontextcolor": 0,
+        "openonstart": true,
+        "openonstartonlynewplayers": true,
+        "UpdateInterval": 24
+      },
+    "tabs": [
+      {
+          "layout": 1,
+          "buttontext": "<TextStyle.Violet>BIENVENIDO</>",
+	  "imageurl": "https://i.imgur.com/TO8ah3y.jpeg",
+	  "content": [
+                    {
+                    "title": "¡GRACIAS POR UNIRTE A LOS SERVER JONES!",
+          	    "text": "DISCORD URL: https://discord.com/invite/cQ6pG2mm5H \n BOTON DE DONAR (VIP SI DONA MAS DE 40 EUROS Y DONANTE INFERIOR A 40 UNICO PAGO), SE FORMA PARTE DE MODERACION CON SU DONACION. \n QUIEN AYUDE TENDRA PRIVILEGIOS EN EL SERVER (RANGO DISCORD,SUGERIR MODS Y MAPAS,DINOS E ITEMS EN CADA MAPA Y MAS), ES NECESARIO ESTAR EN DISCORD PARA SABER DE TODO. \n\n <RichColor Color=\"1,0.65,0,1\">NORMATIVA BASICA: </> \n <RichColor Color=\"1,0.65,0,1\">- EVITAR EL USO DE HUMANO COMO NOMBRE, EN ESE CASO SE ASIGNARAN ALEATORIOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - SOLO UNA BASE POR TRIBU Y DOS PARA DONADORES. </> \n <RichColor Color=\"1,0.65,0,1\"> - KIT NO DISPONIBLE EN EL MAPA. </> \n <RichColor Color=\"1,0.65,0,1\"> - PROHIBIDO INSULTARSE Y FALTARSE AL RESPETO, TODO DEBE HABLARSE. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO PERJUDICAR A OTROS USUARIOS ROBANDO, EN CASO DE TROLEO SE DEVUELVE, SINO ES MOTIVO DIRECTO DE BANEO. </> \n <RichColor Color=\"1,0.65,0,1\"> - EXISTEN ROLES PUNTUALES PARA QUE OS ENTRETENGAN, DISFRUTARLOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR ESTRUCTURAS SUELTAS POR EL MAPA ES MOTIVO DE BANEOS O WIPEOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - EN CASO DE NO JUGAR MAS EN EL MAPA COMUNICARLO EN  DISCORD CON LAS COORDENADAS PARA LIMPIARLO. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO DEJAR MAS DE UN DIA EN MERCADO O CASINO LOS DINOS SALVO AVISEN, ES UN MOTIVO DE QUE SE MATEN PARA NO ACUMULARSE EN LA ZONA. </> \n <RichColor Color=\"1,0.65,0,1\"> - HAY TELEPORT POR EL MAPA PARA IR AL MERCADO O A LA VENTA DE DINOS. </> \n <RichColor Color=\"1,0.65,0,1\"> - CUANDO HAYA PROBLEMAS DE SERVIDOR COMUNICARLO EN DISCORD YA QUE SUELE PASAR EN MUCHOS SERVERS Y NO DEPENDE SOLO DE LA ADMINISTRACION, SON ERRORES DE JUEGO. </> \n <RichColor Color=\"1,0.65,0,1\"> - NO HAY KIT DE MOMENTO AL SER MAPA PERMANENTE </>"
+
+                    }
+                ]
+     	     },
+	  {
+          "layout": 2,
+          "buttontext": "<TextStyle.Blue>CASINO|MERCADO|JUGADORES</>",
+	  "imageurl": "https://i.imgur.com/K5uuTqC.jpeg",
+		"content": [
+                    {
+                         "title": "AJUSTES DE CASINO Y MERCADO:",
+         		 "text": "<RichColor Color=\"1,0,0,1\">MOD CASINO Y MERCADO: EXISTE UNA ZONA DEL MAPA DONDE HABRA UNA ZONA DE CASINO Y MERCADO CON ACCESO DE TELEPORTS POR EL MAPA, EN ELLO PUEDES MEDIANTE ARKCOIN COMPRAR ITEMS AVANZADOS EN TIENDAS O CON MONEDAS DE BRONCE Y PLATA JUGAR Y GANAR PREMIOS, LA MONEDA DE ORO (SUBASTAS Y EVENTOS). ADEMAS HABRA RECOMPENSAS DIARIAS QUE OS DARAN MONEDAS, RULETAS, CARRERA RAPTOR, LOTERIA, ETC. DISFRUTAD!! </> \n"
+          
+                    },
+                    {
+                        "title": "JUGADORES ONLINE",
+          		"text": "{playerlist}"
+                    }
+                  ]
+	       },
+      	  {
+          "layout": 3,
+          "buttontext": "<TextStyle.Yellow>OTROS</>",
+	  "imageurl": "https://i.imgur.com/VuKUSNc.jpeg",
+			"content": [
+                    {
+                        "title": "EVENTOS:",
+          		"text": "<RichColor Color=\"0,0,1,1\">- SE PODRA PARTICIPAR EN EVENTOS HABITUALMENTE LOS SABADOS SOBRE LAS 17-18 HORA ESP, DONDE SERA EN MODALIDAD PVP DE FIN DE SEMANA Y SE LLEVARAN UN PREMIO DESPUES DE TODOS LOS EVENTOS EN 2-3 MESES!! </> \n\n  <RichColor Color=\"1,0,0,1\"> ASIQUE DARLE DURO!! </>"
+                    },
+                    {
+                        "title": "MAPA PERMANENTE:",
+         	 	"text": "<RichColor Color=\"0.5,0,0.5,1\"> ES UN MAPA MINIROLEPLAY PVPVE DONDE TENDRAS QUE HACER MINIROLES Y ADAPTARTE A LAS NORMAS COMO NO USAR NADA DEL FABRICATOR. </> \n"
+                    },
+                    {
+                        "title": "SISTEMA DE CARCEL:",
+          		"text": "<RichColor Color=\"0,1,0,1\"> SE IMPLEMENTO UNA MECANICA CON CARCEL, A VECES PARA INTERACTUAR CON LA GENTE SE OS MANDARA A LA CARCEL PARA QUE NO ESTEIS ABURRIDOS XD!! </> \n"
+                    }
+                ]
+	     },
+	  {
+          "layout": 4,
+          "buttontext": "<TextStyle.Red>SUBASTAS Y VIP</>",
+	  "imageurl": "https://i.imgur.com/fVQHYcB.jpeg",
+		  "content": [
+                    {
+                        "title": "SUBASTAS:",
+          		"text": "<RichColor Color=\"1,0.65,0,1\">SUBASTA AL AZAR: SE CREARA UNA UNICA SUBASTA DONDE SE PARTICIPARA MEDIANTE UN SISTEMA DE RULETA EXCLUSIVO, EL GANADOR HARA UNA TIRADA Y OBTENDRA X MONEDAS DE ORO PARA COMPRAR DINO QUE TENGA DISPONIBLE CON DICHAS MONEDAS, ES UN SISTEMA PARA DAR POSIBILIDAD A TODOS. </> \n\n <RichColor Color=\"1,0.65,0,1\">SUBASTAS BASE: SE PODRA OBTENER DE FORMA EXCLUSIVA METODO TRADICIONAL DE SUBASTA MOSTRANDO 1 A 1 CADA DINO Y SE PUJARA HASTA LA CIFRA MAS ALTA QUE GANARA DICHO DINO, SE USARA PARA CANJEAR POR SEGURIDAD IGUAL LAS MONEDAS DE ORO. PARA LAS PUJAS LA MONEDA EXCLUSIVA SERA EL ARKCOIN!! TAMBIEN SE INCLUYE A VECES ALGUNA BASE SORPRESA PARA SUBASTAR. </>"
+                    },
+                    {
+                        "title": "PRIVILEGIOS VIP:",
+          		"text": "<RichColor Color=\"0,1,0,1\">MEDIANTE DONACION ANUAL PUEDES SOLICITAR 1-2-3 DINOS Y OBJETOS DE UNA ELECCION AMPLIA EN CADA MAPA SIEMPRE QUE ESTE DISPONIBLE, ASIQUE APROVECHA A PEDIRLO!! </> \n"
+                    },
+                    {
+                        "title": "ACCESO ZONA DONADOR:",
+          		"text": "<RichColor Color=\"1,0,1,1\"> AQUELLOS QUE SEAN DONADORES DISPONEN DE UNA ZONA DONDE PUEDEN OBTENER COMPRANDO O JUGANDO OBJETOS DE MEJOR CALIDAD QUE LOS DEL CASINO HABITUAL, ES UNA FORMA DE RECOMPENSAR AQUELLOS QUE MANTIENEN EL SERVIDOR. </> \n"
+                    },
+                    {
+                        "title": "DONADORES Y DONADORES VIP:",
+          		"text": "<RichColor Color=\"1,0,0,1\">AMBOS DISPONDRAN DEL KIT BASE MAS UN KIT AVANZADO EN LA ZONA DONADOR COMO PRIVILEGIO, TAMBIEN LOS VIP PUEDEN SOLICITAR COLABORAR COMO ADMIN EN EL SERVER. CARACTERISTICAS:</> \n DONADOR: ENTRE 25-39.99 EUROS ANUALES (2 DINOS Y 2 ITEMS A ELEGIR), DONADOR VIP SUPERIOR A 40 EUROS (3 DINOS Y 3 ITEMS A ELEGIR). \n - SUGERENVCIA SOBRE MEJORAS O MODS. \n RANGO DISCORD. \n - USO DE DOS BASES PARA CUALQUIER DONADOR, GENTE NORMAL SOLO UNA BASE. \n - SUS VOTOS TIENEN MAS VALOR EN ENCUESTAS. \n - DARAN SOPORTE ADICIONAL EN SERVER Y DISCORD \n ¡¡UNETE AL STAFF DEL SERVER!! "
+                    }
+                ]
+         }
+    ],
+    "links": [
+      {
+          "text": "DISCORD JONES AQUI",
+          "url": "https://discord.com/invite/jmE8cFGejJ"
+      },
+      {
+          "text": "DONAR PAYPAL",
+          "url": "https://www.paypal.me/juanlu91"
+      },
+      {
+          "text": "DONAR POR NITRADO",
+          "url": "https://server.nitrado.net/donations/donate/2142432"
+      }
+    ],
+    "version": 2
+  }
+}
