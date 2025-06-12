@@ -1,5 +1,3 @@
 {
   "WebhookLink": "https://discord.com/api/webhooks/1279922185468772392/qWR5xwHeIfwK3LtEdXMZ7YRVHCbflUfY8f7uRwBYuW5H70KH0cGtNcDHNpsZ2LmgiMIH",
-  "UseCustomMapName": "PermanenteJones",
-  "UseCustomWebhookFormat": "python\\n({EOSId})[{PlayerName}]{Map}({Tribename}):{ChatMessage}"
 }
