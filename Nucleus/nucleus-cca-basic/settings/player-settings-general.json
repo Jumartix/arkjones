@@ -1,0 +1,12 @@
+{
+    "CATEGORY_NAME": "$$Ark-Nucleus$:$GENERAL_PLAYER_SETTINGS",
+    "CATEGORY_DESC": "$$Ark-Nucleus$:$GENERAL_PLAYER_SETTINGS_NOTE",
+    "SETTINGS": {
+        "ALLOW_MESSAGING": {
+            "TYPE": "BOOLEAN",
+            "DEFAULT_VALUE": true,
+            "LABEL": "$$Ark-Nucleus$:$ALLOW_MESSAGING",
+            "DESCRIPTION": "$$Ark-Nucleus$:$ALLOW_MESSAGING_DESC"
+        }
+    }
+}

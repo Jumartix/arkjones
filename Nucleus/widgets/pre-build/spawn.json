@@ -1,0 +1,802 @@
+{
+    "DINO_QUANTITY": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_QUANTITY_LBL",
+            "BindValue": "UICache.Dino.Quantity",
+            "Min": 1,
+            "MaxSlide": 50,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_LEVEL": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_WILD_LVL_LBL",
+            "BindValue": "UICache.Dino.BaseLvl",
+            "Min": 1,
+            "MaxSlide": 500,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_SCALE": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_SCALE_LBL",
+            "BindValue": "UICache.Dino.Scale",
+            "HideIfBroken": true,
+            "BindIsVisible": "ItemData.BP.UseRandomScale",
+            "Min": 0.1,
+            "MaxSlide": 10,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_STATE": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_STATE_LBL",
+            "ItemKey": "EnumID",
+            "Items": [
+                {
+                    "EnumID": "0",
+                    "Name": "$$Ark-Nucleus$:$SPAWN_DINO_STATE_PASSIVE"
+                },
+                {
+                    "EnumID": "8",
+                    "Name": "$$Ark-Nucleus$:$SPAWN_DINO_STATE_PASSIVE_FLEE"
+                },
+                {
+                    "EnumID": "1",
+                    "Name": "$$Ark-Nucleus$:$SPAWN_DINO_STATE_NEUTRAL"
+                },
+                {
+                    "EnumID": "2",
+                    "Name": "$$Ark-Nucleus$:$SPAWN_DINO_STATE_AGGRESSIVE"
+                },
+                {
+                    "EnumID": "3",
+                    "Name": "$$Ark-Nucleus$:$SPAWN_DINO_STATE_ATTACK_TARGET"
+                }
+            ],
+            "BindValue": "UICache.Dino.State",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "ItemWidget": {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/DropDownItems/DU_DDItem_BasicItem.DU_DDItem_BasicItem_C",
+            "Props": {
+                "BindLabel": "ItemData.Name",
+                "BindValue": "ItemData.EnumID"
+            }
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        },
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+    },
+    "DINO_IS_FEMALE": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_IS_FEMALE_LBL",
+            "BindValue": "UICache.Dino.IsFemale",
+            "HideIfBroken": true,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_IS_NEUTERED": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_IS_NEUTERED_LBL",
+            "BindValue": "UICache.Dino.Neutered",
+            "HideIfBroken": true,
+            "BindIsVisible": "ItemData.BP.CanHaveBaby",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_IS_BABY": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_IS_BABY_LBL",
+            "BindValue": "UICache.Dino.IsBaby",
+            "HideIfBroken": true,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_MATURATION": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_MATURATION_LBL",
+            "BindValue": "UICache.Dino.Maturation",
+            "BindIsVisible": "UICache.Dino.IsBaby",
+            "Min": 0,
+            "Max": 100,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_IS_TAMED": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_IS_TAMED_LBL",
+            "BindValue": "UICache.Dino.IsTamed",
+            "HideIfBroken": true,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_OWNER": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_OWNER_LBL",
+            "ItemKey": "LinkedPlayerId",
+            "BindItems": "BaseData.Players",
+            "BindValue": "UICache.Dino.OwnerId",
+            "BindIsVisible": "UICache.Dino.IsTamed",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "ItemWidget": {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/DropDownItems/DU_DDItem_BasicItem.DU_DDItem_BasicItem_C",
+            "Props": {
+                "BindLabel": "ItemData.PlayerName",
+                "BindNote": "ItemData.LinkedPlayerId",
+                "BindValue": "ItemData.LinkedPlayerId"
+            }
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_TAMING_EFFECT": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_TAME_EFFECT_LBL",
+            "BindValue": "UICache.Dino.TamingEffect",
+            "BindIsVisible": "UICache.Dino.IsTamed",
+            "BindNote": "UICache.Dino.TamingEffectNote",
+            "Min": 0,
+            "Max": 100,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_IMPRINTING": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_IMPRINTING_LBL",
+            "BindValue": "UICache.Dino.Imprint",
+            "BindIsVisible": "UICache.Dino.IsTamed",
+            "Min": 0,
+            "Max": 100,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_NAME": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_CUSTOM_NAME_LBL",
+            "BindValue": "UICache.Dino.CustomName",
+            "BindIsVisible": "UICache.Dino.IsTamed",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_RANDOM_STATS": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_UNALLOCATED_POINTS_LBL",
+            "BindText": "UICache.Dino.StatPoints",
+            "Color": "ALERT_COLOR",
+            "Padding": [
+                2,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "DINO_RESET_STATS_BTN": {
+        "Props": {
+            "Image": "/Game/PrimalEarth/UI/Inventory/Textures/IconRefresh.IconRefresh",
+            "Padding": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        "OnClickEvent": {
+            "EventUID": "Nucleus/DinoSpawner/ResetStats"
+        }
+    },
+    "DINO_RANDOM_STATS_BTN": {
+        "Props": {
+            "Image": "/Game/PrimalEarth/UI/Inventory/Textures/IconRandomize.IconRandomize",
+            "Padding": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        "OnClickEvent": {
+            "EventUID": "Nucleus/DinoSpawner/RandomizeStats"
+        }
+    },
+    "DINO_WILD_HEALTH": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_HEALTH_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.Health_Locked",
+            "BindValue": "UICache.Dino.Health",
+            "BindMax": "UICache.Dino.Health_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_WILD_STAMINA": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_STAMINA_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.Stamina_Locked",
+            "BindValue": "UICache.Dino.Stamina",
+            "BindMax": "UICache.Dino.Stamina_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_WILD_OXYGEN": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_OXYGEN_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.Oxygen_Locked",
+            "BindValue": "UICache.Dino.Oxygen",
+            "BindMax": "UICache.Dino.Oxygen_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_WILD_FOOD": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_FOOD_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.Food_Locked",
+            "BindValue": "UICache.Dino.Food",
+            "BindMax": "UICache.Dino.Food_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_WILD_WATER": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_WATER_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.Water_Locked",
+            "BindValue": "UICache.Dino.Water",
+            "BindMax": "UICache.Dino.Water_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_WILD_WEIGHT": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_WEIGHT_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.Weight_Locked",
+            "BindValue": "UICache.Dino.Weight",
+            "BindMax": "UICache.Dino.Weight_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_WILD_SPEED": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_MOVEMENT_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.SpeedMultiplier_Locked",
+            "BindValue": "UICache.Dino.SpeedMultiplier",
+            "BindMax": "UICache.Dino.SpeedMultiplier_Max",
+            "OnValueChanged": {
+                "EventUID": "Nucleus/DinoSpawner/StatChange"
+            },
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        }
+    },
+    "DINO_WILD_DAMAGE": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_MELEE_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.MeleeDamageMultiplier_Locked",
+            "BindValue": "UICache.Dino.MeleeDamageMultiplier",
+            "BindMax": "UICache.Dino.MeleeDamageMultiplier_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "DINO_WILD_CRAFTING_SPEED": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_CRAFTING_SPEED_LBL",
+            "Min": 0,
+            "BindLocked": "UICache.Dino.CraftingSpeedMultiplier_Locked",
+            "BindValue": "UICache.Dino.CraftingSpeedMultiplier",
+            "BindMax": "UICache.Dino.CraftingSpeedMultiplier_Max",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/DinoSpawner/StatChange"
+        }
+    },
+    "SPAWN_BTN": {
+        "Props": {
+            "BindIsEnabled": "UICache.Dino.IsValid",
+            "BindIsVisible": "ItemData.BP.IsDino",
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_IN_FRONT_OF_OWNER_BTN"
+        },
+        "AccessPolicy": {
+            "Tags": [
+                "Nucleus_SpawnDinos"
+            ]
+        },
+        "OnClickEvent": {
+            "PostData": "Ark-Nucleus/POST/Encyclopedia/SpawnByPlayer"
+        }
+    },
+    "CRYO_BTN": {
+        "Props": {
+            "BindIsVisible": "ItemData.BP.IsDino&&UICache.Dino.IsTamed",
+            "BindIsEnabled": "UICache.Dino.IsValid",
+            "Label": "$$Ark-Nucleus$:$SPAWN_DINO_IN_CRYO_BTN"
+        },
+        "AccessPolicy": {
+            "Tags": [
+                "Nucleus_SpawnDinos"
+            ]
+        },
+        "OnClickEvent": {
+            "PostData": "Ark-Nucleus/POST/Encyclopedia/SpawnCryo"
+        }
+    },
+    "ITEM_QUANTITY": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_QUANTITY_LBL",
+            "BindValue": "UICache.Item.Quantity",
+            "Min": 1,
+            "MaxSlide": 1000,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_QUALITY_INDEX": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_QUALITY_INDEX_LBL",
+            "Note": "$$Ark-Nucleus$:$SPAWN_ITEM_QUALITY_INDEX_NOTE",
+            "ItemKey": "EnumID",
+            "Items": [
+                {
+                    "EnumID": "0",
+                    "Name": "Primitive"
+                },
+                {
+                    "EnumID": "1",
+                    "Name": "Ramshackle"
+                },
+                {
+                    "EnumID": "2",
+                    "Name": "Apprentice"
+                },
+                {
+                    "EnumID": "3",
+                    "Name": "Journeyman"
+                },
+                {
+                    "EnumID": "4",
+                    "Name": "Mastercraft"
+                },
+                {
+                    "EnumID": "5",
+                    "Name": "Ascendant"
+                }
+            ],
+            "BindValue": "UICache.Item.QualityIndex",
+            "BindIsVisible":"ItemData.BP.UseItemStats",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "ItemWidget": {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/DropDownItems/DU_DDItem_BasicItem.DU_DDItem_BasicItem_C",
+            "Props": {
+                "BindLabel": "ItemData.Name",
+                "BindValue": "ItemData.EnumID"
+            }
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_QUALITY": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_QUALITY_LBL",
+            "Note": "$$Ark-Nucleus$:$SPAWN_ITEM_QUALITY_NOTE",
+            "BindValue": "UICache.Item.Quality",
+            "BindIsVisible":"ItemData.BP.UseItemStats",
+            "Min": 0,
+            "MaxSlide": 100,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_IS_BP": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_IS_BLUEPRINT_LBL",
+            "BindValue": "UICache.Item.IsBlueprint",
+            "BindIsVisible": "ItemData.BP.CanBeBlueprint",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_CUSTOM_NAME": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_CUSTOM_NAME_LBL",
+            "BindValue": "UICache.Item.CustomName",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_OWNER": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_OWNER_LBL",
+            "ItemKey": "LinkedPlayerId",
+            "BindItems": "BaseData.Players",
+            "BindValue": "UICache.Item.OwnerId",
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "ItemWidget": {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/DropDownItems/DU_DDItem_BasicItem.DU_DDItem_BasicItem_C",
+            "Props": {
+                "BindLabel": "ItemData.PlayerName",
+                "BindNote": "ItemData.LinkedPlayerId",
+                "BindValue": "ItemData.LinkedPlayerId"
+            }
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_GENERIC_QUALITY": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_QUALITY_LBL",
+            "BindValue": "UICache.Item.GenericQuality",
+            "HideIfBroken": true,
+            "MaxSlide": 1000,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_ARMOR": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_ARMOR_LBL",
+            "BindMin": "ItemData.BP.Stats.Armor",
+            "BindValue": "UICache.Item.Armor",
+            "HideIfBroken": true,
+            "MaxSlide": 2000,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_MAX_DURABILITY": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_DURABILITY_LBL",
+            "BindMin": "ItemData.BP.Stats.MaxDurability",
+            "BindValue": "UICache.Item.MaxDurability",
+            "HideIfBroken": true,
+            "MaxSlide": 2000,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_DMG": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_DAMAGE_LBL",
+            "BindMin": "ItemData.BP.Stats.WeaponDamagePercent",
+            "BindValue": "UICache.Item.WeaponDamagePercent",
+            "HideIfBroken": true,
+            "MaxSlide": 756,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_CLIP_AMMO": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_CLIP_AMMO_LBL",
+            "BindMin": "ItemData.BP.Stats.WeaponClipAmmo",
+            "BindValue": "UICache.Item.WeaponClipAmmo",
+            "HideIfBroken": true,
+            "MaxSlide": 2000,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_HYPOTHERMAL": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_HYPOTHERMAL_LBL",
+            "BindValue": "UICache.Item.HypothermalInsulation",
+            "HideIfBroken": true,
+            "MaxSlide": 200,
+            "MinSlide": -200,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_HYPERTHERMIA": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_HYPERTHERMAL_LBL",
+            "BindValue": "UICache.Item.HyperthermalInsulation",
+            "HideIfBroken": true,
+            "MaxSlide": 200,
+            "MinSlide": -200,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "ITEM_STAT_WEIGHT": {
+        "Props": {
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_STAT_WEIGHT_LBL",
+            "BindMin": "ItemData.BP.Stats.Weight",
+            "BindValue": "UICache.Item.Weight",
+            "HideIfBroken": true,
+            "MaxSlide": 2000,
+            "Padding": [
+                2,
+                0,
+                2,
+                0
+            ]
+        },
+        "OnValueChanged": {
+            "EventUID": "Nucleus/ItemSpawner/StatChange"
+        }
+    },
+    "SPAWN_ITEM_BTN": {
+        "Props": {
+            "BindIsVisible": "!ItemData.BP.IsDino",
+            "BindIsEnabled": "UICache.Item.IsValid",
+            "Label": "$$Ark-Nucleus$:$SPAWN_ITEM_TO_PLAYER_BTN"
+        },
+        "AccessPolicy": {
+            "Tags": [
+                "Nucleus_SpawnItems"
+            ]
+        },
+        "OnClickEvent": {
+            "PostData": "Ark-Nucleus/POST/Encyclopedia/SpawnItem"
+        }
+    }
+}

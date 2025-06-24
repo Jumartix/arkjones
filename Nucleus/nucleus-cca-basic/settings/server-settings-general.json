@@ -1,0 +1,12 @@
+{
+    "CATEGORY_NAME": "$$Ark-Nucleus$:$GENERAL_SERVER_SETTINGS",
+    "CATEGORY_DESC": "$$Ark-Nucleus$:$GENERAL_SERVER_SETTINGS_DESC",
+    "SETTINGS": {
+        "ALLOW_SERVER_INFO_PAGE": {
+            "TYPE": "BOOLEAN",
+            "DEFAULT_VALUE": false,
+            "LABEL": "$$Ark-Nucleus$:$ALLOW_SERVER_INFO_PAGE",
+            "DESCRIPTION": "$$Ark-Nucleus$:$ALLOW_SERVER_INFO_PAGE_DESC"
+        }
+    }
+}

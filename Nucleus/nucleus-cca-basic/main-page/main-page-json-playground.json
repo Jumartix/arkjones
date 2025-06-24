@@ -1,0 +1,151 @@
+{
+    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+    "Props": {
+        "Title": "$$Ark-Nucleus$:$SERVER_INFO_TITLE",
+        "Note": "$$Ark-Nucleus$:$SERVER_INFO_TITLE_NOTE",
+        "Icon": "/Game/PrimalEarth/CoreBlueprints/StatusIcons/House_Icon_White.House_Icon_White",
+        "Fill": 1
+    },
+    "Info": {
+        "Props": {
+            "Title": "$$Ark-Nucleus$:$SERVER_INFO_INFO_TITLE"
+        },
+        "Buttons": [
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                "Props": {
+                    "Label": "$$Ark-Nucleus$:$OK_BTN",
+                    "Fill": 1
+                },
+                "OnClickEvent": {
+                    "EventUID": "CloseModal"
+                }
+            }
+        ],
+        "UIItems": [
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                    "Text": "$$Ark-Nucleus$:$SERVER_INFO_LINE0",
+                    "FontSize": 14,
+                    "Padding": [ 4, 4, 4, 4 ]
+                }
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                    "Text": "$$Ark-Nucleus$:$SERVER_INFO_LINE1",
+                    "FontSize": 14,
+                    "Padding": [ 4, 4, 4, 4 ]
+                }
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                    "Text": "$$Ark-Nucleus$:$SERVER_INFO_LINE2",
+                    "FontSize": 14,
+                    "Padding": [ 4, 4, 4, 4 ]
+                }
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                    "Text": "$$Ark-Nucleus$:$SERVER_INFO_LINE3",
+                    "FontSize": 14,
+                    "Padding": [ 4, 4, 4, 4 ]
+                }
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                    "Text": "$$Ark-Nucleus$:$SERVER_INFO_LINE4",
+                    "FontSize": 14,
+                    "Padding": [ 4, 4, 4, 4 ]
+                }
+            }
+        ]
+    },
+    "Buttons": [
+        {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+            "Props": {
+                "Image": "/Game/PrimalEarth/UI/Inventory/Textures/IconRename.IconRename",
+                "VerticalAlignment": 1,
+                "Padding": [ 2, 2, 2, 2 ]
+            },
+            "Modal": {
+                "Props": {
+                    "Title": "$$Ark-Nucleus$:$EDIT_SERVER_INFO_PAGE"
+                },
+                "OptionalPostRequests": [
+                    {
+                        "Name": "Ark-Nucleus/POST/JsonPlayground",
+                        "RequestParams": [
+                            {
+                                "RequestKey": "JsonPlayground",
+                                "ValueKey": "Data.JsonPlayground"
+                            }
+                        ],
+                        "ResponseKey": "Data.JsonPlayground",
+                        "CloseModal": true
+                    }
+                ],
+                "Buttons": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                        "Props": {
+                            "Label": "$$Ark-Nucleus$:$VERIFY_AND_SAVE_BTN",
+                            "Icon": "/Game/PrimalEarth/UI/Inventory/Textures/IconSave.IconSave",
+                            "Fill": 1,
+                            "Color": "ATTENTION_COLOR_DARK",
+                            "ContentColor": "ATTENTION_COLOR_LIGHT"
+                        },
+                        "OnClickEvent": {
+                            "PostData": "Ark-Nucleus/POST/JsonPlayground"
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                        "Props": {
+                            "Label": "$$Ark-Nucleus$:$CANCEL_BTN",
+                            "Fill": 1
+                        },
+                        "OnClickEvent": {
+                            "EventUID": "CloseModal"
+                        }
+                    }
+                ],
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Edit/DU_Edit_RawJson_v1.DU_Edit_RawJson_v1_C",
+                        "Props": {
+                            "BindValue": "Data.JsonPlayground",
+                            "Label": "$$Ark-Nucleus$:$SERVER_INFO_UI_CONFIG",
+                            "Note": "$$Ark-Nucleus$:$SERVER_INFO_UI_CONFIG_NOTE",
+                            "Padding": [ 0, 0, 0, 8 ],
+                            "Fill": 1
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "UIItems": [
+        {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+            "Props": {
+                "Fill": 1,
+                "BindValue": "Data.JsonPlayground.UIItems"
+            },
+            "DataSource": {
+                "Name": "Ark-Nucleus/GET/JsonPlayground",
+                "ResponseKey": "Data.JsonPlayground"
+            },
+            "ResetOnEvents": {
+                "Events": [
+                    "Ark-Nucleus/NOTIFY/JsonPlayground"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "UIItems": [
+        {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Url_v1.DU_Panel_Url_v1_C",
+            "Props": {
+                "Fill": 1
+            },
+            "UIConfigRequest": {
+                "Url": "https://raw.githubusercontent.com/ArkNucleus/Ark-Nucleus-JSONs/master/nucleus-cca/web-server-info-example.json",
+                "KeepCacheForXMinutes": 10,
+                "UUID": "MyCoolNewServerInfoPage"
+            }
+        }
+    ]
+}

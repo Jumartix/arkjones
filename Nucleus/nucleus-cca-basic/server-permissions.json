@@ -1,0 +1,42 @@
+{
+    "Admins": {
+        "LinkedPlayerIds": [ ],
+        "PermissionTags": [
+            "Nucleus_ViewServerLogs",
+            "Nucleus_ClearServerLogs",
+            "Nucleus_SpawnItems",
+            "Nucleus_SpawnDinos",
+            "Nucleus_EditServerInfoPage",
+            "Nucleus_EditModServerSettings",
+            "Nucleus_ViewPermissions",
+            "Nucleus_ViewMembersOnlyContent"
+        ],
+        "CanSelfAssign": false
+
+    },
+    "Moderators": {
+        "LinkedPlayerIds": [ ],
+        "PermissionTags": [
+            "Nucleus_ViewServerLogs",
+            "Nucleus_EditServerInfoPage",
+            "Nucleus_ViewMembersOnlyContent"
+        ],
+        "CanSelfAssign": false
+    },
+    "CommunityMember": {
+        "LinkedPlayerIds": [ ],
+        "PermissionTags": [
+            "Nucleus_ViewMembersOnlyContent"
+        ],
+        "CanSelfAssign": true
+    },
+    "All Players": {
+        "LinkedPlayerIds": [ "*" ],
+        "PermissionTags": [
+            "Nucleus_ViewEncyclopedia",
+            "Nucleus_ViewPlayerStatsInInventory",
+            "Nucleus_ViewDinoStatsInInventory"
+        ],
+        "CanSelfAssign": false
+    }
+}
