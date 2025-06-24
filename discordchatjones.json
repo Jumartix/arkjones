@@ -1,0 +1,5 @@
+{
+  "WebhookLink": "https://discord.com/api/webhooks/1383863463079579720/GrudeNu7rIl_OzrlJ5d7obERZTlCrktD8EessCrJFZ3ESuxV_ylC06Zzx2RVFmLaDkdJ",
+  "UseCustomMapName": "Ragnarok",
+  "UseCustomWebhookFormat": "js\nPermaJones:({Ragnarok})[{PlayerName}]{Map}({Tribename}):{ChatMessage}"
+}
