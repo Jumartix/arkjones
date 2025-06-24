@@ -14,10 +14,10 @@
             {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                 "Props": {
-                    "Title": "$$SERVER$:$HOME",
-                    "Note": "$$SERVER$:$HOME_NOTE",
+                    "Title": "¡BIENVENIDO AL SERVIDOR JONES!",
+                    "Note": "¡TU AVENTURA ESTA SOLO POR COMENZAR!",
                     "Fill": 1,
-                    "Image": "https://cdn.survivetheark.com/uploads/monthly_2024_06/ASA_SummerBash_CC_416_28_June_StA_Cover_1200x675.png.4946192f6ccf8ff774755c978d73384b.png"
+                    "Image": "https://i.imgur.com/pqxyDr7.jpeg"
                 },
                 "UIItems": [
                     {
@@ -67,7 +67,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "$$SERVER$:$WELCOME_TO_SERVER",
+                                                    "Text": "¡BIENVENIDO AL SERVIDOR JONES!",
                                                     "FontSize": 32,
                                                     "Padding": [
                                                         5,
@@ -80,7 +80,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "$$SERVER$:$SERVER_SLOGAN",
+                                                    "Text": "¡TU AVENTURA ESTA SOLO POR COMENZAR SUPERVIVIENTE!",
                                                     "FontSize": 16,
                                                     "Padding": [
                                                         5,
@@ -96,7 +96,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
-                                                            "Label": "Link to a Twitter Page",
+                                                            "Label": "HAZ UNA DONACION NITRADO",
                                                             "Padding": [
                                                                 5,
                                                                 5,
@@ -105,13 +105,13 @@
                                                             ]
                                                         },
                                                         "OnClickEvent": {
-                                                            "Url": "https://twitter.com/"
+                                                            "Url": "https://nitrado.com/"
                                                         }
                                                     },
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
-                                                            "Label": "Invite to a Discord Server",
+                                                            "Label": "UNIRSE A DISCORD",
                                                             "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
                                                             "Padding": [
                                                                 5,
@@ -121,7 +121,7 @@
                                                             ]
                                                         },
                                                         "OnClickEvent": {
-                                                            "Url": "https://discord.gg/"
+                                                            "Url": "https://discord.gg/KDkWby5RzH"
                                                         }
                                                     }
                                                 ]
@@ -198,51 +198,6 @@
                                                         5
                                                     ]
                                                 },
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "Q: What is this About?",
-                                                            "FontSize": 14,
-                                                            "Justification": "Center",
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "A: Just a demo server info page provided my the Ark-Nucleus mod.",
-                                                            "FontSize": 11,
-                                                            "Justification": "Center",
-                                                            "Fill": 1,
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                        "Props": {
-                                                            "Label": "Learn More",
-                                                            "Padding": [
-                                                                5,
-                                                                5,
-                                                                5,
-                                                                5
-                                                            ]
-                                                        },
-                                                        "Modal": {
-                                                            "Props": {
-                                                                "Title": "What is this About?"
-                                                            },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
